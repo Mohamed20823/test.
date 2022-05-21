@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sine up</title>
+    
+    <style>
+        
+        @media screen and (min-width: 500px) {
+     form{
+        background-image: url(تفسير-اعطاء-المفتاح-في-المنام-825x510.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            left: 25%;
+            width: 60%;
+     }
+        td{
+            float: left;
+            position: relative ;
+            left: 5%;
+            top: 50px;
+            height: 75px;
+
+        }
+input{
+    height: 30px;
+    width: 250px;
+
+}
+        }
+
+@media screen and (max-width: 500px) {
+    
+    table{
+       background-color: hsl(240, 2%, 50%);
+     }  
+    
+        
+}
+
+
+    </style>
+    
+</head>
+<body >
+    
+    <div>
+    
+    
+        <form   action="index.html" name="signup">
+            <fieldset>
+                <legend>ٍSigne Up   </legend>
+            <table>
+            <tr>
+                <td><pre> Name            : </pre> </td><td><input type="text" placeholder="First Name"></td>
+                <td>Second Name :</td><td><input type="text" placeholder="Second Name"> </td>
+            </tr>
+            <tr>
+                <td><pre> E-mail           :</pre></td>
+                <td><input type="email" placeholder="E-mail" name="email"  required></td>
+            </tr>
+            <tr>
+                <td> <pre>Password          :</pre></td>
+                <td><input type="password" id="password" placeholder="Password" name="password"   pattern="([(A-Z)?]\[a-zA-Z0-9]).{8,8}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8  characters and special character" required></td>
+            </tr>
+            <tr>
+                <td> <pre>Telephon Number   :</pre></td>
+                <td><input type="tel" placeholder="Telephon Number" value="01"  min="9" max="9" pattern="(?=.*\d).{11,11}" title="Must contain 11 digit" name="telephon"></td>
+            </tr>
+            <tr>
+                <td> <pre>Adress           : </pre></td>
+                <td><input type="text" placeholder="Adress"></td>
+            </tr>
+            <tr>
+                <td><select required>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><input type="submit"  onclick="check()" ></td>
+                <td><input id="reset" type="reset" ></td>
+            </tr>
+            </table>
+        </fieldset>
+        </form>
+    
+
+
+
+
+        <script>
+            function check(){
+                if(document.signup.password.value==""&&document.signup.email.value==""){
+                    alert("please write the Email and Password");
+                }
+                else if (document.signup.password.value==""){
+                    alert("please write the Password")
+                }
+                else (document.signup.email.value==""){
+                    alert("please write the Email");
+                }
+    
+               let x=document.getElementById("password").value;
+            }
+            try { 
+        if(x == "[A-Z]")  throw "true";
+        // if(isNaN(x)) throw "not a number";
+        // x = Number(x);
+        if(x == CharacterData)  throw "true";
+        // if(x > 10)   throw "too high";
+      }
+    
+      catch(err) {
+        var y = document.getElementById("signup").action;
+      document.getElementById("demo").innerHTML = y;
+      }
+    
+      
+    
+            
+        </script>
+    
+    
+
+
+
+</body>
+</html>

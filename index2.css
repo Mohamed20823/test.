@@ -1,0 +1,86 @@
+
+.a1{
+  display: flex;
+  
+  background-color: rgb(107, 103, 103);
+ 
+}
+
+
+
+.a1 a{
+  color: white;
+  padding: 30px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+
+
+.a1 a:hover {
+  background-color: #ddd;
+  color: hsl(240, 2%, 50%);
+  font-size: 25px;
+
+}
+
+@media screen and (max-width: 700px) {
+      .a1 {   
+       flex-direction: column;
+      }
+  }
+
+
+
+    
+       
+@media screen and (max-width: 400px) {
+ 
+   
+    
+}
+
+
+
+
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 500px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    
+    
+  }
+
+
+  div button{
+    text-align: center;
+    position: relative;
+    left: 40%;
+   
+    background-color: hsl(240, 2%, 50%);
+    
+    
+  }
+  div button a{
+    text-decoration: none;
+   color: aliceblue;
+  }

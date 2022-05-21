@@ -1,0 +1,113 @@
+
+
+
+.navbar {
+    display: flex;
+    
+    background-color: rgb(107, 103, 103);
+   
+  }
+
+
+
+.navbar a {
+    color: white;
+    padding: 30px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+
+
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: hsl(240, 2%, 50%);
+    font-size: 25px;
+
+  }
+
+@media screen and (max-width: 700px) {
+        .navbar {   
+         flex-direction: column;
+        }
+    }
+
+  
+  
+
+
+
+    
+       
+@media screen and (min-width: 400px) {
+    
+    
+    a{
+        text-align: center;
+    }
+    body{
+        background-image: ;
+    }
+}
+
+
+.txt{
+    padding: 30px 0px 30px 0px ;
+    text-align: center;
+   text-decoration-color: white;
+}
+
+
+.b{
+    float: left;
+    /* display: block; */
+}
+
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: rgb(141, 137, 137);
+  }
+
+
+
+  .b:link, b:visited {
+    background-color: hsl(240, 2%, 50%);
+    text-decoration-color: rgb(255, 255, 255);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .b:hover, b:active {
+    background-color: rgb(106, 102, 102);
+  }
+
+
+  form{
+            
+    background-color:hsl(240, 2%, 50%);
+    padding: 10px 0px 10px 0px;
+    width: 80%;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 20%;
+    left: 10%;
+  }
+  input,textarea{
+    height: 30px;
+    width:300px;
+    position: relative;
+    top: 15px;
+  }
+
+tr.d0 {
+    
+  float: left;
+  font-size: 20px;
+  
+}
